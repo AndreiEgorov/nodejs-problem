@@ -8,7 +8,7 @@ The sample text for processing is stored in myText.txt file in the same director
 
 To process the sample text and generate report run `tail -f myText.txt | node index.js`.
 
-The processsed text can also be stored in a newLog.txt file which will be created after `ail -f myText.txt | node index.js --save` command is run.
+The processsed text can also be stored in a newLog.txt file which will be created after `tail -f myText.txt | node index.js --save` command is run.
 
 If a config command other than `--save` is run, a prompt will appear to use a `--save` command.
 
